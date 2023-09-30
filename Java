@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        // Deklarasi variabel
+        int angka = 5;
+        double nilai = 7.5;
+        String nama = "Contoh";
+        
+        // Percabangan if
+        if (angka > 0) {
+            System.out.println("Angka positif");
+        } else {
+            System.out.println("Angka negatif atau nol");
+        }
+        
+        // Perulangan for
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iterasi ke-" + i);
+        }
+        
+        // Array satu dimensi
+        int[] arrSatuDimensi = {1, 2, 3, 4, 5};
+        
+        // Array multidimensi
+        int[][] arrDuaDimensi = {{1, 2, 3}, {4, 5, 6}};
+        
+        // Input dan output
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.print("Masukkan angka: ");
+        angka = scanner.nextInt();
+        System.out.println("Anda memasukkan angka " + angka);
+    }
+}
